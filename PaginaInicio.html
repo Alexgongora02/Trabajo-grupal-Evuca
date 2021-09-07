@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/6e9ed3deae.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Proyecto E-vuca.</title>
+</head>
+
+<body>
+
+    <!--===========================================-->
+    <!-- ENCABEZADO -->
+    <!--===========================================-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="text-primary fs-5 fw-bold"></span>Cachorritos.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <class class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienes">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galeria</a>
+                    </li>
+                </ul>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#tuPerro">Tu perro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trivia.html">Trivia</a>
+                </li>
+                </class>
+                <form class="d-flex">
+                    <a class="navContact" href="formulario.html">Contactanos</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--===========================================-->
+    <!-- Seccion de Imagenes  -->
+    <!--===========================================-->
+<div class="containerImgs">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2800">
+                <img src="./img/1.jpg" class="d-block w-100"></img>
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2800">
+                <img src="./img/2.jpg" class="d-block w-100" alt="Ovejero Aleman">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2800">
+                <img src="./img/3.jpg" class="d-block w-100" id="img1">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2800">
+                <img src="./img/4.jpg" class="d-block w-100" alt="Pomeranian">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2800">
+                <img src="./img/5.jpg" class="d-block w-100" alt="Siberian husky">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+</div>
+    <!--===========================================-->
+    <!-- Info sobre nosotros -->
+    <!--===========================================-->
+<div class="containerText" id="quienes">
+    <h1 id="tituloIndex">Bienvenidos:</h1>
+    <div class="textoIndex">
+        <p>Nuestra página es de una organización especializada en buscarle un hogar a perros abandonados y/o maltratados; una organización totalmente independiente que no recibe subvenciones de organismos oficiales, empresas ni partidos políticos. Practicamos el sacrificio cero, denunciamos judicialmente a los maltratadores y buscamos adoptantes para todos los animales que acogemos.</p>
+        <p>Al recibir los animales, les damos atención veterinaria, les realizamos estudios para llegar a un diagnóstico, y llevamos a cabo los tratamientos indicados por los profesionales veterinarios para su rehabilitación.<br>
+        Ante los delicados cuidados que los animales debían recibir para poder sacarlos adelante, contamos con veterinarios para poder asistirlos.<br>
+        Nuestra misión la llevamos a cabo tan sólo con la ayuda de la gente y de nuestro tiempo y dedicación. Por eso, si tienen alguna manera de ayudarnos, por muy pequeña que sea, por favor contactarse con nosotros</p>
+    </div>
+    <div class="contactContainer">
+        <i class="iconos fas fa-angle-double-right"></i>
+        <a href="formulario.html" class="contactButton"><b>Contactate con nosotros.</b></a>
+        <i class="iconos fas fa-angle-double-left"></i>
+    </div>
+<!--===========================================-->
+<!-- Galeria de perros  -->
+<!--===========================================-->
+</div>
+<div class="containerText" id="galeria">
+    <h1 id="tituloIndex">Nuestros perritos:</h1>
+    <div class="textoIndex">
+        <div class="buscador">
+            <i class="fas fa-sync reload"></i>
+            <input type="text" placeholder="Buscar por raza..." class="inputRaza" required>
+            <div class="btnBuscar">
+                <i class="fas fa-search lupa"></i>
+            </div>
+        </div>
+        <br><br>
+        <div class="galeryContainer">
+        </div>
+    </div>
+</div>
+    <!--===========================================-->
+    <!--Subir archivo -->
+    <!--===========================================-->
+<div class="containerText" id="tuPerro">
+    <h1 id="tituloIndex" >Tu perro!</h1>
+    <div class="textoIndex uploadContainer">
+        <p>¿Alguna vez adoptaste? Si es así ¡animate a subir una foto de tu perro a nuestra página! Si lo haces, tu foto aparecera en el inicio.</p>
+        <div class="containerFile">
+            <div class="wrapper">
+                <div class="image">
+                    <img id="uploadImg" src="" alt=""/>
+                </div>
+                <div class="content">
+                    <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                    <div class="text">No files chosen yet.</div>
+                </div>
+                <div id="cancel-btn"><i class="fas fa-times"></i></div>
+                <div class="file-name"><a href="#menu" class="subirFoto">Subir foto.</a></div>
+            </div>
+            <input id="default-btn" type="file" hidden>
+            <button onclick= "defaultBtnActive()" id="custom-btn">Choose a file</button>
+        </div>
+    </div>
+</div>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="PaginaInicio.js"></script>
+
+        <footer class="w-100 d-flex align-items justify-content-center">
+            <p class="fs-5 px-3 pt-3">
+                Cachorritos.com &copy; Todos los derechos reservados 2021.</p>
+            <div id="iconos">
+                <a href="http://www.facebook.com/ajbraca/"><i class="bi bi-facebook"></i></a>
+                <a href="http://twitter.com/DestroyerMan38"><i class="bi bi-twitter"></i></a>
+                <a href="http://www.instagram.com/bracamontechino/"><i class="bi bi-instagram"></i></a>
+                <a href="http://www.linkedin.com/in/betin-braca-a7086b35/"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+
+        </footer>
+</body>
+
+</html>
